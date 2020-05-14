@@ -104,7 +104,7 @@ class Timetabling {
         System.out.println("Timeslot dibutuhkan (menggunakan Simulated Annealing) 		: " + simulatedAnnealing.getJumlahTimeslotSA());
         System.out.println("Penalti Simulated Annealing 					: " + Evaluator.getPenalty(conflict_matrix, simulatedAnnealing.getTimeslotSA(), jumlahmurid));
         System.out.println("Waktu eksekusi yang dibutuhkan Simmulated Annealing " + ((double) (endtimeSA - starttimeSA)/1000000000) + " detik.\n");
-		
+        System.out.println("");
     }
 }
 
